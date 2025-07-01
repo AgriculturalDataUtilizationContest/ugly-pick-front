@@ -165,3 +165,30 @@ export const getCropImage = async (crop) => {
     throw error;
   }
 };
+
+export const getLinkPreviewInfo = async (links) => {
+  if (!Array.isArray(links)) {
+    links = [links];
+  }
+
+  const results = [];
+
+  for (const link of links) {
+    try {
+      const url = `https://api.linkpreview.net/?key=${process.env.REACT_APP_LINKPRIVEW_KEY}&q=${link}`;
+      const response = await axios.get(url, {
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+      if (response.data.title && response.data.title.trim() !== "") {
+        results.push({ url: link, data: response.data });
+      }
+    } catch (error) {
+      console.log(`error while previewing ${link}:`, error.message);
+      results.push({ url: link, data: { title: link, url: link } });
+    }
+  }
+
+  return results;
+};

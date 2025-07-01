@@ -9,15 +9,20 @@ import {
 } from "@mui/material";
 import { Vertical, Horizontal } from "../../../style/CommunalStyle";
 import NonImg from "../../../assets/NonImg.png";
-import { getRecentIssue } from "../../../api/api";
+import { getLinkPreviewInfo, getRecentIssue } from "../../../api/api";
 import { getCropEngName } from "../../../utils/utils";
 
 export default function IssueCheck({ crop }) {
   const [issueInfo, setIssueInfo] = useState(null);
+  const [newsInfo, setNewsInfo] = useState([]);
   useEffect(() => {
     const fetchData = async () => {
-      const response = await getRecentIssue(getCropEngName(crop));
-      setIssueInfo(response);
+      const issueResponse = await getRecentIssue(getCropEngName(crop));
+      setIssueInfo(issueResponse);
+
+      const newsResponse = await getLinkPreviewInfo(issueResponse.news);
+      setNewsInfo(newsResponse);
+      console.log(newsResponse);
     };
     fetchData();
   }, [crop]);
@@ -38,7 +43,6 @@ export default function IssueCheck({ crop }) {
         </Typography>
       </Vertical>
 
-      {/* 좌측 영역: 이슈 체크박스 */}
       <Horizontal sx={{ justifyContent: "space-between" }}>
         <Box sx={{ flex: 1, pr: "30px" }}>
           <IssueBox>
@@ -76,7 +80,6 @@ export default function IssueCheck({ crop }) {
                 </Box>
               </Vertical>
 
-              {/* 워드클라우드 자리는 비워둠 */}
               <WordCloudPlaceholder>
                 <Box
                   component="img"
@@ -98,9 +101,21 @@ export default function IssueCheck({ crop }) {
           }}
         >
           <GreenBtn>관련 뉴스 기사를 찾아보세요!</GreenBtn>
-          {issueInfo.news.map((item, idx) => (
-            <NewsCard key={idx} news={item} />
-          ))}
+          {!newsInfo || newsInfo.length === 0 ? (
+            <div
+              style={{
+                width: "100%",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                height: "300px",
+              }}
+            >
+              <CircularProgress />
+            </div>
+          ) : (
+            newsInfo.map((item, idx) => <NewsCard key={idx} news={item.data} />)
+          )}
         </Vertical>
       </Horizontal>
     </Vertical>
@@ -132,7 +147,7 @@ const GreenBtn = styled(Button)(({ theme }) => ({
   fontSize: "15px",
 }));
 
-const NewsCard = ({ img, title, desc, news }) => {
+const NewsCard = ({ news }) => {
   return (
     <Horizontal
       sx={{
@@ -141,23 +156,24 @@ const NewsCard = ({ img, title, desc, news }) => {
         boxShadow: "0px 4px 20px rgba(0,0,0,0.05)",
         padding: "12px",
         alignItems: "center",
+        cursor: "pointer",
       }}
+      onClick={() => (window.location.href = news.url)}
     >
       <Box
         component="img"
-        src={img || NonImg}
+        src={news.image || NonImg}
         sx={{ width: "70px", height: "70px", borderRadius: "8px", mr: "12px" }}
       />
       <Vertical sx={{ flex: 1 }}>
-        <Typography variant="body2" fontWeight="bold" noWrap>
-          {title}
-        </Typography>
-        <Typography variant="caption" color="gray" noWrap>
-          {desc}
+        <Typography variant="subtitle">
+          {news.title.length > 15
+            ? `${news.title.slice(0, 15)}...`
+            : news.title}
         </Typography>
         <Typography
           variant="caption"
-          sx={{ textAlign: "right", color: "#007BFF", cursor: "pointer" }}
+          sx={{ textAlign: "right", color: "#636363", cursor: "pointer" }}
         >
           더 알아보기 &gt;
         </Typography>
