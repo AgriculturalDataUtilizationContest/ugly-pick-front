@@ -1,15 +1,30 @@
 import React, { useEffect, useState } from "react";
 import { Box, Typography, Grid, useTheme, styled, Input } from "@mui/material";
-import SearchBtn from "../assets/SearchBtn.svg";
 import Card from "../components/Search/Card";
 import { Horizontal, Vertical } from "../style/CommunalStyle";
 import { getPopularCrops, getSeasonsCrops } from "../api/api";
 import Recommand from "../components/PriceDashboard/Compare/Recommand";
+import SearchBtn from "../components/Search/SearchBtn";
+import { isValidValue } from "../utils/utils";
+import CropSelect from "../components/Search/CropSelect";
+import { useNavigate } from "react-router-dom";
 
 export default function Search() {
   const theme = useTheme();
   const [popularList, setPopularList] = useState([]);
   const [seasonCropList, setSeasonCropList] = useState([]);
+  const [inputValue, setInputValue] = useState("");
+  const [isValid, setIsValid] = useState(false);
+  const [crop, setCrop] = useState("");
+  const navigate = useNavigate();
+
+  function handleBtnClick() {
+    if (crop !== "") {
+      navigate(`/forecast?crop=${crop}`);
+    } else if (isValidValue(inputValue)) {
+      navigate(`/forecast?crop=${inputValue}`);
+    }
+  }
 
   useEffect(() => {
     const fetchData = async () => {
@@ -44,21 +59,37 @@ export default function Search() {
             sx={{
               display: "flex",
               justifyContent: "center",
-              alignItems: "center",
+              alignItems: "flex-start",
               gap: 2,
               mt: 2,
             }}
           >
-            <SearchInput
-              placeholder="오늘도 Glee하게! 어떤 농산물을 볼까요?"
-              sx={{
-                width: "800px",
-                bgcolor: "white",
-                borderRadius: 1,
-              }}
-              disableUnderline
-            />
-            <Box component="img" src={SearchBtn} sx={{ height: "60px" }} />
+            <Box sx={{ display: "flex", flexDirection: "column" }}>
+              <SearchInput
+                placeholder="오늘도 Glee하게! 어떤 농산물을 볼까요?"
+                sx={{
+                  width: "800px",
+                  bgcolor: "white",
+                  borderRadius: 1,
+                }}
+                disableUnderline
+                value={inputValue}
+                onChange={(e) => setInputValue(e.target.value)}
+              />
+              <CropSelect
+                setIsValid={setIsValid}
+                crop={crop}
+                setCrop={setCrop}
+              />
+            </Box>
+            {isValidValue(inputValue) || isValid ? (
+              <SearchBtn
+                color={theme.palette.primary.main}
+                onClick={handleBtnClick}
+              />
+            ) : (
+              <SearchBtn color={theme.palette.primary.gray2} />
+            )}
           </Box>
         </Box>
 
@@ -111,7 +142,8 @@ export default function Search() {
 }
 
 const SearchInput = styled(Input)`
-  font-size: "16px !important";
+  font-size: 17px;
+  font-weight: 500;
   height: 60px;
   flex-shrink: 0;
   border-radius: 29px;

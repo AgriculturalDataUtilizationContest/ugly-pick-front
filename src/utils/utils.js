@@ -79,9 +79,33 @@ const cropCategoryMap = {
   무: "채소",
 };
 
+export const cropNames = [
+  "고구마",
+  "감자",
+  "배추",
+  "수박",
+  "호박",
+  "무",
+  "상추",
+  "딸기",
+  "참외",
+  "파",
+  "양파",
+  "사과",
+  "양배추",
+  "감귤",
+  "배",
+];
+
 export function getCropCategory(korName) {
   return cropCategoryMap[korName] || null;
 }
+
+export function isValidValue(inputValue) {
+  const trimmedValue = inputValue.trim();
+  return cropNames.includes(trimmedValue);
+}
+
 export const smoothScroll = (target, distance, duration) => {
   const start = target.scrollLeft;
   const startTime = performance.now();
