@@ -1,0 +1,61 @@
+.group.icon {
+  height: 333px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 149px;
+}
+
+.group.icon-icon {
+  height: 333px;
+  position: relative;
+  width: 631px;
+}
+
+.group .frame-30 {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 66.56px;
+  left: 192px;
+  position: absolute;
+  top: 111px;
+}
+
+.group .frame-31 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.group .text-wrapper-24 {
+  color: #27b06e;
+  font-family: "Holtwood One SC", Helvetica;
+  font-size: 61.2px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 98.0px;
+  margin-top: -2.30px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.group .frame-32 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 9.18px;
+  margin-top: -20.66px;
+  position: relative;
+}
+
+.group .group-2609212-1 {
+  height: 333px !important;
+  left: 15px !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 149px !important;
+}

@@ -1,0 +1,333 @@
+.main {
+  background-color: #f4f5f7;
+  height: 5508px;
+  overflow: hidden;
+  position: relative;
+  width: 1728px;
+}
+
+.main .overlap-3 {
+  height: 1896px;
+  left: -267px;
+  position: relative;
+  top: 262px;
+  width: 2242px;
+}
+
+.main .rectangle {
+  height: 418px;
+  left: 267px;
+  position: absolute;
+  top: 439px;
+  width: 1728px;
+}
+
+.main .image-2 {
+  height: 569px;
+  left: 1474px;
+  object-fit: cover;
+  position: absolute;
+  top: 295px;
+  width: 521px;
+}
+
+.main .group-wrapper {
+  height: 244px;
+  left: 1163px;
+  position: absolute;
+  top: 566px;
+  width: 430px;
+}
+
+.main .overlap-group-wrapper {
+  height: 244px;
+}
+
+.main .overlap-4 {
+  height: 244px;
+  position: relative;
+  width: 430px;
+}
+
+.main .group-7 {
+  /* box-shadow: 0px 4.24px 20.44px #00000040; */
+  height: 244px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 430px;
+}
+
+.main .overlap-5 {
+  height: 244px;
+  position: relative;
+}
+
+.main .subtract {
+  height: 143px;
+  left: 273px;
+  position: absolute;
+  top: 0;
+  width: 157px;
+}
+
+.main .group-8 {
+  height: 126px;
+  left: 12px;
+  position: absolute;
+  top: 61px;
+  transform: rotate(-22.22deg);
+  width: 326px;
+}
+
+.main .overlap-6 {
+  height: 126px;
+  position: relative;
+  width: 328px;
+}
+
+.main .group-9 {
+  height: 126px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 328px;
+}
+
+.main .overlap-group-2 {
+  height: 126px;
+  position: relative;
+  width: 326px;
+}
+
+.main .rectangle-2 {
+  background-color: #fcffeb;
+  height: 126px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 309px;
+}
+
+.main .text-wrapper-26 {
+  color: #27b06e;
+  font-family: 'Holtwood One SC';
+  font-size: 69.3px;
+  font-weight: 400;
+  left: 25px;
+  letter-spacing: 0;
+  line-height: 110.9px;
+  position: absolute;
+  top: 11px;
+  width: 301px;
+}
+
+.main .rectangle-3 {
+  background-color: #fcffeb;
+  height: 25px;
+  left: 21px;
+  position: absolute;
+  top: 77px;
+  width: 304px;
+}
+
+.main .frame-34 {
+  align-items: center;
+  background-color: #fcffeb;
+  display: inline-flex;
+  gap: 9.53px;
+  height: 25px;
+  left: 25px;
+  position: absolute;
+  top: 80px;
+}
+
+.main .text-wrapper-27 {
+  color: #27b06e;
+  font-family: 'Holtwood One SC';
+  font-size: 33px;
+  font-weight: 400;
+  height: 39.18px;
+  letter-spacing: 0;
+  line-height: 52.8px;
+  margin-bottom: -5.82px;
+  margin-top: -7.94px;
+  position: relative;
+  white-space: nowrap;
+  width: 18px;
+}
+
+.main .frame-35 {
+  align-items: center;
+  background-color: #fcffeb;
+  display: inline-flex;
+  gap: 9.53px;
+  height: 25px;
+  left: 222px;
+  position: absolute;
+  top: 83px;
+}
+
+.main .rectangle-4 {
+  height: 28px;
+  left: 375px;
+  position: absolute;
+  top: 44px;
+  width: 29px;
+}
+
+.main .frame-36 {
+  height: 790px;
+  left: 216px;
+  position: absolute;
+  top: 932px;
+  width: 1783px;
+}
+
+.main .frame-37 {
+  height: 406px;
+}
+
+.main .overlap-group-3 {
+  height: 406px;
+  position: relative;
+  top: -1px;
+  width: 1779px;
+}
+
+.main .text-wrapper-28 {
+  color: #27b06e;
+  font-family: "Gmarket Sans TTF-Bold", Helvetica;
+  font-size: 281.5px;
+  font-weight: 700;
+  height: 406px;
+  left: 10px;
+  letter-spacing: 0;
+  line-height: 405.4px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+
+.main .vector-4 {
+  height: 3px;
+  left: 560px;
+  position: absolute;
+  top: 202px;
+  width: 1219px;
+}
+
+.main .image-3 {
+  height: 1039px;
+  left: 1006px;
+  object-fit: cover;
+  position: absolute;
+  top: 857px;
+  width: 989px;
+}
+
+.main .text-wrapper-29 {
+  color: #f4f5f7;
+  font-family: "Gmarket Sans TTF-Bold", Helvetica;
+  font-weight: bold;
+  font-size: 22.1px;
+  font-weight: 700;
+  height: 35px;
+  left: 1138px;
+  letter-spacing: 0;
+  line-height: 35.4px;
+  position: absolute;
+  top: 599px;
+  transform: rotate(-22.85deg);
+  white-space: nowrap;
+}
+
+.main .overlap-7 {
+  height: 1024px;
+  left: -17px;
+  position: absolute;
+  top: 3102px;
+  width: 1936px;
+}
+
+.main .frame-38 {
+  height: 790px;
+  left: 0;
+  position: absolute;
+  top: 44px;
+  width: 1936px;
+}
+
+.main .frame-39 {
+  align-items: center;
+  display: flex;
+  gap: 72px;
+  height: 406px;
+  left: -24px;
+  position: relative;
+  width: 1936px;
+}
+
+.main .text-wrapper-30 {
+  color: #27b06e;
+  font-family: "Gmarket Sans TTF-Bold", Helvetica;
+  font-size: 281.5px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 405.4px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.main .vector-5 {
+  height: 3px;
+  position: relative;
+  width: 1056px;
+}
+
+.main .image-4 {
+  height: 1024px;
+  left: 634px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1024px;
+}
+
+.main .barcode-image {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 310px;
+  height: auto;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  pointer-events: none;
+}
+
+body {
+  font-family: 'Holtwood One SC';
+}
+
+.clickable-hover {
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.clickable-hover:hover {
+  transform: scale(1.05);
+}
+
+@font-face {
+    font-family: "Gmarket Sans TTF Bold";
+    src: url("https://db.onlinewebfonts.com/t/c066fdd8248e28e98522d1b408e5adfa.eot");
+    src: url("https://db.onlinewebfonts.com/t/c066fdd8248e28e98522d1b408e5adfa.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/c066fdd8248e28e98522d1b408e5adfa.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/c066fdd8248e28e98522d1b408e5adfa.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/c066fdd8248e28e98522d1b408e5adfa.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/c066fdd8248e28e98522d1b408e5adfa.svg#Gmarket Sans TTF Bold")format("svg");
+}

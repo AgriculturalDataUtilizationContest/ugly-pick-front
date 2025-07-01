@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  width: 100%;
+}
+
+.resetButton {
+  flex-shrink: 0;
+  height: 5rem;
+  width: 9rem;
+  border-radius: 0.5rem;
+  border: 1px solid #27b06e;
+  box-shadow: 0px -0.96px 3.83px #0000000d;
+  color: #27b06e;
+  font-size: 23px;
+  font-weight: bold;
+  font-family: 'Pretendard-Bold', Helvetica;
+  transition: background-color 0.2s ease;
+}
+
+.resetButton:hover {
+  background-color: rgba(39, 176, 110, 0.1);
+}
+
+.analyzeButton {
+  flex-grow: 1;
+  height: 5rem;
+  border-radius: 0.5rem;
+  background-color: #f4f4f4;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06), 0px -1px 3px 0px rgba(0, 0, 0, 0.07);
+  color: #27b06e;
+  font-size: 23px;
+  font-weight: bold;
+  font-family: 'Pretendard-Bold', Helvetica;
+  transition: background-color 0.2s ease;
+}
+
+.analyzeButton:hover {
+  background-color: rgba(244, 244, 244, 0.9);
+}

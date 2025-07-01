@@ -1,0 +1,13 @@
+.star {
+  height: 56px;
+  position: relative;
+  width: 56px;
+}
+
+.star .img-2 {
+  height: 43px;
+  left: 6px;
+  position: absolute;
+  top: 4px;
+  width: 45px;
+}

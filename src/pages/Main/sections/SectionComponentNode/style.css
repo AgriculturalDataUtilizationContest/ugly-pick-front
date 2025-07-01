@@ -1,0 +1,352 @@
+.section-component-node {
+  background-color: #f4f5f757;
+  border-color: #3333331f;
+  border-top-style: solid;
+  border-top-width: 1px;
+  height: 822px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 4162px;
+  width: 1728px;
+}
+
+.section-component-node .overlap-2 {
+  height: 671px;
+  left: -108px;
+  position: absolute;
+  top: 34px;
+  width: 1884px;
+}
+
+.section-component-node .img {
+  height: 433px;
+  left: 866px;
+  position: absolute;
+  top: 238px;
+  width: 193px;
+}
+
+.section-component-node .frame-15 {
+  align-items: center;
+  display: inline-flex;
+  gap: 69.13px;
+  left: 0;
+  position: absolute;
+  top: 413px;
+}
+
+.section-component-node .frame-16 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 39.04px;
+  position: relative;
+}
+
+.section-component-node .frame-17 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 17.35px;
+  box-shadow: 10.84px 4.34px 43.38px #00000029;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 26.03px;
+  justify-content: center;
+  padding: 21.69px;
+  position: relative;
+  width: 419.15px;
+}
+
+.section-component-node .text-wrapper-17 {
+  color: var(--gray);
+  font-family: "Manrope", Helvetica;
+  font-size: 15.2px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 22.8px;
+  margin-top: -1.08px;
+  position: relative;
+  width: 323.18px;
+}
+
+.section-component-node .vector-2 {
+  height: 115px;
+  left: 108px;
+  position: absolute;
+  top: 26px;
+  width: 41px;
+}
+
+.section-component-node .frame-18 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 24.94px;
+  position: relative;
+}
+
+.section-component-node .ellipse {
+  height: 86.76px;
+  margin-left: -3629.00px;
+  margin-top: -493.42px;
+  position: relative;
+  width: 86.76px;
+}
+
+.section-component-node .frame-19 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 7.88px;
+  position: relative;
+}
+
+.section-component-node .frame-20 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 6.51px;
+  position: relative;
+}
+
+.section-component-node .frame-21 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 4.34px;
+  position: relative;
+}
+
+.section-component-node .text-wrapper-18 {
+  color: var(--dark-gray);
+  font-family: "Manrope", Helvetica;
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 21.7px;
+  margin-top: -1.08px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.section-component-node .text-wrapper-19 {
+  color: var(--dark-gray);
+  font-family: "Manrope", Helvetica;
+  font-size: 10.8px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 21.7px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.section-component-node .frame-22 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.section-component-node .star-1 {
+  height: 15.18px !important;
+  width: 15.18px !important;
+}
+
+.section-component-node .star-instance {
+  height: 12px !important;
+  left: 1px !important;
+  top: 1px !important;
+  width: 12px !important;
+}
+
+.section-component-node .vector-3 {
+  height: 115px;
+  left: 30px;
+  position: absolute;
+  top: 26px;
+  width: 118px;
+}
+
+.section-component-node .ellipse-2 {
+  height: 104.11px;
+  margin-bottom: -17.35px;
+  margin-left: -8.68px;
+  position: relative;
+  width: 104.11px;
+}
+
+.section-component-node .frame-23 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  left: 673px;
+  position: absolute;
+  top: 0;
+  width: 598px;
+}
+
+.section-component-node .frame-24 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 3px;
+  position: relative;
+  width: 100%;
+}
+
+.section-component-node .frame-25 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px;
+  position: relative;
+}
+
+.section-component-node .text-wrapper-20 {
+  color: #00b57a;
+  font-family: "Pretendard-Bold", Helvetica;
+  font-size: 31.5px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 39.3px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.section-component-node .frame-26 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.section-component-node .text-wrapper-21 {
+  color: #000000;
+  font-family: "Pretendard-Bold", Helvetica;
+  font-size: 31.5px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 39.3px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.section-component-node .frame-27 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+}
+
+.section-component-node .trustpilot-star-bg {
+  align-items: center;
+  background-color: #00b57a;
+  display: flex;
+  gap: 40px;
+  height: 79px;
+  justify-content: center;
+  padding: 8px;
+  position: relative;
+  width: 79px;
+}
+
+.section-component-node .group-2 {
+  background-image: url(https://c.animaapp.com/TSkI5naX/img/subtract-6.svg);
+  background-size: 100% 100%;
+  height: 56.98px;
+  position: relative;
+  width: 59.92px;
+}
+
+.section-component-node .half {
+  background-color: #d9d9d9;
+  height: 79px;
+  left: 39px;
+  position: absolute;
+  top: 0;
+  width: 40px;
+}
+
+.section-component-node .text-wrapper-22 {
+  align-self: stretch;
+  color: var(--gray);
+  font-family: "Manrope", Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: relative;
+  text-align: center;
+}
+
+.section-component-node .frame-28 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  left: 596px;
+  position: absolute;
+  top: 748px;
+  width: 536px;
+}
+
+.section-component-node .frame-29 {
+  align-items: center;
+  background-color: #27B06E;
+  border-radius: 8px;
+  box-shadow: 0px 4px 18.5px #00000040;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px;
+  position: relative;
+  width: 486px;
+}
+
+.section-component-node .text-wrapper-23 {
+  color: #ffffff;
+  font-family: "Pretendard-Bold", Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 53.6px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.ellipse,
+.ellipse-2 {
+  width: 64px; /* 원하는 크기로 조절하세요 */
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ddd; /* 선택사항: 테두리 추가 */
+}

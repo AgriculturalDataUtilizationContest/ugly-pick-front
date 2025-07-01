@@ -1,0 +1,81 @@
+.nevi-home-wrapper {
+  background-color: #f4f5f7;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #3333331f;
+  height: 107px;
+  position: relative;
+  width: 1728px;
+}
+
+.nevi-home-wrapper .frame-33 {
+  align-items: center;
+  display: inline-flex;
+  gap: 60px;
+  justify-content: center;
+  left: 1318px;
+  position: absolute;
+  top: 41px;
+}
+
+.nevi-home-wrapper .item-link {
+  color: #27b06e;
+  font-family: "Pretendard-ExtraBold", Helvetica;
+  font-size: 18px;
+  font-weight: 800;
+  height: 24.48px;
+  letter-spacing: 0;
+  line-height: 24.5px;
+  margin-top: -0.74px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: 78.84px;
+}
+
+.nevi-home-wrapper .text-wrapper-25 {
+  color: #6b7280;
+  font-family: "Pretendard-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24.5px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.nevi-home-wrapper .group-3 {
+  height: 87px !important;
+  left: 47px !important;
+  position: absolute !important;
+  top: 10px !important;
+  width: 164px !important;
+}
+
+.nevi-home-wrapper .group-4 {
+  gap: 17.3px !important;
+  left: 49px !important;
+  top: 29px !important;
+}
+
+.nevi-home-wrapper .group-5 {
+  font-size: 15.9px !important;
+  line-height: 25.5px !important;
+  margin-top: -0.60px !important;
+}
+
+.nevi-home-wrapper .group-6 {
+  gap: 2.39px !important;
+  margin-top: -5.37px !important;
+}
+
+.nevi-home-wrapper .group-2609212-4-instance {
+  height: 87px !important;
+  left: 4px !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 39px !important;
+}

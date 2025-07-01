@@ -1,0 +1,256 @@
+.footer {
+  background-color: #747474;
+  height: 428px;
+  left: 0;
+  position: absolute;
+  top: 5080px;
+  width: 1728px;
+}
+
+.footer .divider {
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1728px;
+}
+
+.footer .frame-6 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 75px;
+  left: 114px;
+  position: absolute;
+  top: 53px;
+  width: 1501px;
+}
+
+.footer .frame-7 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+.footer .group-2609212 {
+  height: 188.93px !important;
+  width: 358px !important;
+}
+
+.footer .group-instance {
+  gap: 37.76px !important;
+  left: 108px !important;
+  top: 62px !important;
+}
+
+.footer .group-2609212-instance {
+  font-size: 34.7px !important;
+  line-height: 55.6px !important;
+  margin-top: -1.30px !important;
+}
+
+.footer .design-component-instance-node {
+  gap: 5.21px !important;
+  margin-top: -11.72px !important;
+}
+
+.footer .group-2609212-2 {
+  height: 189px !important;
+  left: 9px !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 84px !important;
+}
+
+.footer .frame-8 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 35px;
+  position: relative;
+}
+
+.footer .footer-right {
+  height: 172.2px;
+  position: relative;
+  width: 166px;
+}
+
+.footer .footer-column {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 30px;
+  position: relative;
+}
+
+.footer .footer-title {
+  color: #ededed;
+  font-family: "DM Sans", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 26.4px;
+  margin-top: -1.20px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.footer .footer-links {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 21.6px;
+  position: relative;
+}
+
+.footer .master-link-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.footer .master-link {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 7.2px;
+  position: relative;
+}
+
+.footer .text-wrapper-9 {
+  color: #c5d3c3;
+  font-family: "DM Sans", Helvetica;
+  font-size: 21.6px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1.20px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.footer .frame-9 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  position: relative;
+  width: 243.2px;
+}
+
+.footer .footer-title-2 {
+  align-self: stretch;
+  color: #ededed;
+  font-family: "DM Sans", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 26.4px;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.footer .link-wrapper {
+  height: 24px;
+  position: relative;
+  width: 243.2px;
+}
+
+.footer .link-instance {
+  gap: 7.2px !important;
+}
+
+.footer .line-rounded-email {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.footer .link-2 {
+  color: #c5d3c3 !important;
+  margin-top: -1.20px !important;
+}
+
+.footer .frame-10 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 23px;
+  position: relative;
+  width: 100%;
+}
+
+.footer .line {
+  align-self: stretch;
+  height: 1.2px;
+  margin-top: -1.20px;
+  position: relative;
+  width: 1728px;
+}
+
+.footer .footer-content {
+  height: 36px;
+  position: relative;
+  width: 1501px;
+}
+
+.footer .frame-11 {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 1501px;
+}
+
+.footer .footer-left {
+  color: #c5d3c3;
+  font-family: "DM Sans", Helvetica;
+  font-size: 21.6px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.footer .footer-right-2 {
+  color: transparent;
+  font-family: "DM Sans", Helvetica;
+  font-size: 21.6px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: right;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.footer .span {
+  color: #c5d3c3;
+}
+
+.footer .text-wrapper-10 {
+  color: #39a92c;
+  text-decoration: underline;
+}
+
+.footer .text-wrapper-11 {
+  color: #27b06e;
+  text-decoration: underline;
+}

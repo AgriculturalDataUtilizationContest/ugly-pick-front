@@ -1,0 +1,32 @@
+.div {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 67px;
+  position: absolute;
+  top: 571px;
+  width: 836px;
+}
+
+.div .text-wrapper-12 {
+  align-self: stretch;
+  color: #000000;
+  font-family: "Pretendard-Bold", Helvetica;
+  font-size: 58.6px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 154.3px;
+  margin-top: -1.46px;
+  position: relative;
+}
+
+.div .text-wrapper-13 {
+  align-self: stretch;
+  color: #000000;
+  font-family: "Pretendard-Regular", Helvetica;
+  font-size: 42.9px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 53.6px;
+  position: relative;
+}

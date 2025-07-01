@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Router from "./Router";
+import ThemeProvider from "./theme/ThemeProvider";
+import Maintenance from "./pages/Maintenance";
 
 function App() {
+  const now = new Date();
+  const hours = now.getHours();
+  const minutes = now.getMinutes();
+
+  const isMaintenanceTime = hours === 15 && minutes >= 0 && minutes < 40;
+
+  if (isMaintenanceTime) {
+    return <Maintenance />;
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider>
+      <Router />
+    </ThemeProvider>
   );
 }
 
