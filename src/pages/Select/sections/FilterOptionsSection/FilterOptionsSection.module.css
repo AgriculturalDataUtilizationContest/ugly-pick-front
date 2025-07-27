@@ -1,6 +1,5 @@
 .container {
   width: 100%;
-  max-width: 688px;
   margin-top: 24px;
 }
 
@@ -24,8 +23,8 @@
 }
 
 .card {
-  width: 140px;
-  height: 155px;
+  max-width: 140px;
+  max-height: 140px;
   border-radius: 8px;
   overflow: hidden;
   border: 2.07px solid #fff;
@@ -52,15 +51,14 @@
 }
 
 .itemImage {
-  width: 89.72px;
-  height: 101.81px;
+  width: 80px;
   object-fit: contain;
 }
 
 .itemName {
   margin-top: 7.32px;
-  font-family: 'GimpoTitle-Regular', Helvetica;
-  font-weight: normal;
+  font-family: "Pretendard Variable";
+  font-weight: 700;
   color: #011200;
   font-size: 20.4px;
   line-height: 32.6px;

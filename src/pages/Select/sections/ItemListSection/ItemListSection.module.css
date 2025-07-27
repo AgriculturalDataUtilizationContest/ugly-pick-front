@@ -1,6 +1,5 @@
 .container {
   width: 100%;
-  max-width: 708px;
   background-color: #ffffff66;
   border-radius: 40.22px;
   border: 1px solid #27b06e4c;
@@ -12,6 +11,7 @@
 
 .tabs {
   width: 100%;
+  /* cursor: pointer; */
 }
 
 .tabsList {
@@ -20,27 +20,28 @@
   width: 100%;
   height: auto;
   background-color: transparent;
-  gap: 88px;
   padding: 0;
+  /* cursor: pointer; */
 }
 
 .tabTrigger {
   height: 49px;
   border-radius: 40.22px;
   border: none;
-  font-family: 'GimpoTitle-Regular', Helvetica;
+  font-family: "GimpoTitle-Regular", Helvetica;
   font-weight: normal;
   font-size: 19.2px;
   line-height: 30.6px;
   min-width: 78.53px;
+  cursor: pointer;
 }
 
 .tabTriggerAll {
-  width: 147px;
+  width: 140px;
 }
 
 .tabTriggerCategory {
-  width: 78.53px;
+  width: 140px;
 }
 
 .tabTriggerActive {

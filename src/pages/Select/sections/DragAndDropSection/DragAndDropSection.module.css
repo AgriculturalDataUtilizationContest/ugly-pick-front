@@ -78,7 +78,7 @@
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-  margin-top: -34px;
+  margin-top: -60px;
 }
 
 .title {
@@ -89,13 +89,15 @@
   font-size: 37.7px;
   text-align: center;
   line-height: 60.3px;
+  margin-bottom: 0;
 }
 
 .description {
+  margin: 0;
   font-family: "Pretendard-Regular", Helvetica;
   font-weight: normal;
   color: #042e00;
-  font-size: 28.6px;
+  font-size: 25px;
   text-align: center;
   line-height: 37.7px;
 }
