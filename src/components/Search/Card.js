@@ -2,11 +2,18 @@ import React from "react";
 import { Box, Typography, styled } from "@mui/material";
 import { Vertical } from "../../style/CommunalStyle";
 import NonImg from "../../assets/NonImg.png";
+import { useNavigate } from "react-router-dom";
 
 export default function Card({ info, num }) {
   const { cropsImage, cropName, cropCategory } = info;
+  const navigate = useNavigate();
   return (
-    <Container sx={{ left: `${num * 300 + 500}px` }}>
+    <Container
+      sx={{ left: `${num * 300 + 500}px` }}
+      onClick={() => {
+        navigate(`/forecast?crop=${cropName}`);
+      }}
+    >
       <RankBadge>{num + 1}</RankBadge>
 
       <EmojiBox

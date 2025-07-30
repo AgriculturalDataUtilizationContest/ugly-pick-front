@@ -46,7 +46,11 @@ export default function PriceDashboard() {
             <CustomTab label="농산물 추천" value={3} />
           </Tabs>
           <TabContents value={tabListValue} index={0}>
-            <PriceCompare crop={crop} category={category} />
+            <PriceCompare
+              crop={crop}
+              category={category}
+              setTabList={setTabList}
+            />
           </TabContents>
           <TabContents value={tabListValue} index={1}>
             <PricePredict crop={crop} />

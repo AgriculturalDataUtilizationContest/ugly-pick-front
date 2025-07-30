@@ -52,7 +52,7 @@ export const fetchPriceCompareInfo = async (cropName, pathVariable) => {
 
 export const getPopularCrops = async () => {
   try {
-    const url = `${process.env.REACT_APP_BASE_URL}/api/comparison/category/채소`;
+    const url = `${process.env.REACT_APP_BASE_URL}/api/comparison/category/과일`;
 
     const response = await axios.get(url, {
       headers: {

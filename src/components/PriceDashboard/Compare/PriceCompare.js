@@ -9,7 +9,7 @@ import DigitContainer from "./DigitContainer";
 import Recommand from "./Recommand";
 import { fetchPriceCompareInfo } from "../../../api/api";
 
-export default function PriceCompare({ crop, category }) {
+export default function PriceCompare({ crop, category, setTabList }) {
   const todayDate = KoreanDate();
   const [priceInfo, setPriceInfo] = useState("");
   const [recommandList, setRecommandList] = useState([]);
@@ -93,6 +93,9 @@ export default function PriceCompare({ crop, category }) {
                   mb: "5px",
                   cursor: "pointer",
                   mt: "5px",
+                }}
+                onClick={() => {
+                  setTabList(1);
                 }}
               >
                 내일의 가격이 궁금하다면 ? {">"}
