@@ -3,6 +3,7 @@ import { Card, CardContent } from "../../../../components/ui/card";
 import styles from "./FilterOptionsSection.module.css";
 import mandarinImg from "../../../../icons/DragDrop/mandarin.png";
 import pearImg from "../../../../icons/DragDrop/pear.png";
+import cabbageImg from "../../../../icons/DragDrop/cabbage.png";
 
 const produceItems = [
   {
@@ -67,7 +68,7 @@ const produceItems = [
   },
   {
     name: "양배추",
-    image: "https://c.animaapp.com/mchocbwgl3GYeg/img/image-1.png",
+    image: cabbageImg,
     category: "vegetables",
   },
   { name: "감귤", image: mandarinImg, category: "fruits" },
