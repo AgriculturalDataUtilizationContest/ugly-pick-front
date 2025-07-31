@@ -20,7 +20,7 @@ export const Main = () => {
   };
 
   return (
-    <div style={{ transform: "scale(0.75)", transformOrigin: "top left" }}>
+    <div style={{ transform: "scale(0.83)", transformOrigin: "top left" }}>
       <div className="main" data-model-id="246:160">
         <div className="overlap-3">
           <img
