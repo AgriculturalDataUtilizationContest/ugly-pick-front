@@ -20,7 +20,8 @@ export default function IssueCheck({ crop }) {
       const issueResponse = await getRecentIssue(getCropEngName(crop));
       setIssueInfo(issueResponse);
 
-      const newsResponse = await getLinkPreviewInfo(issueResponse.news);
+      const slicedNews = issueResponse.news.slice(0, 5);
+      const newsResponse = await getLinkPreviewInfo(slicedNews);
       setNewsInfo(newsResponse);
       console.log(newsResponse);
     };
