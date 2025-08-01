@@ -56,12 +56,14 @@ export default function IssueCheck({ crop }) {
               </Typography>
             </PointerLabel>
 
-            <Vertical sx={{ mt: "40px", gap: "10px" }}>
+            <Vertical sx={{ mt: "20px", gap: "10px" }}>
               <Typography variant="body2" fontWeight="bold">
                 최근 이슈 키워드 한눈에 보세요
               </Typography>
               <Typography variant="caption" color="gray">
-                2025년 7월 기준, 오른쪽 키워드 리스트와 함께 빠르게 체크해보세요
+                2025년 8월 기준, 오른쪽 키워드 리스트와 함께 빠르게 체크해보세요{" "}
+                <br />
+                이슈 키워드는 매주 월요일에 업데이트 됩니다.
               </Typography>
 
               <Vertical
