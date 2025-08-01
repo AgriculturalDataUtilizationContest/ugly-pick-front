@@ -112,7 +112,7 @@ const CustomTooltip = ({ active, payload, label }) => {
         </Typography>
       )}
       {ugly && (
-        <Typography fontSize={13} color="#2C9777">
+        <Typography fontSize={13} color="red">
           못난이 상품 소매가격 <strong>{ugly.value.toLocaleString()}원</strong>
         </Typography>
       )}
